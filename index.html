@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <!-- Font Awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="registercon">
+        <div class="container">
+            <div class="forms">
+                <div class="form signup">
+                    <span class="title">Registration</span>
+    
+                    <form id="registrationForm">
+                        <div class="input-field">
+                            <input type="text" id="fullName" name="name" placeholder="Enter your Name" required>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+    
+                        <div class="input-field">
+                            <input type="text" id="mobileNo" name="mobileNo" placeholder="Enter Mobile No." required>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="text" id="email" name="email" placeholder="Enter your Email" required>
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+    
+                        <div class="input-field">
+                            <input type="text" id="username" name="username"  placeholder="Enter Username" required>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+    
+                        <div class="input-field">
+                            <input type="password" id="password" name="pass" class="password" placeholder="Enter your Password" required>
+                            <i class="fas fa-lock icon"></i>
+                            <i class="far fa-eye-slash showHidePw"></i>
+                        </div>
+    
+                        <div class="input-field button">
+                            <input type="submit" value="Register Now" name="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
